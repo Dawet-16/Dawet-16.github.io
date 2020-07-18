@@ -1,0 +1,486 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    position: relative;
+}
+body
+{
+    font-family:'Lucida Sans';
+}
+/* profil */
+#oi
+{
+    background: url(../gambar/bagroun1-4.jpg) no-repeat;
+    background-size: cover;
+    height: calc(115vh - 100px);
+}
+nav
+{
+    background: rgba(79, 77, 80, 0);
+    height: 80px;
+    width: 100%;
+}
+label.logo
+{
+    line-height: 80px;
+    padding: 0 50px;
+}
+nav ul
+{
+    float: right;
+    margin-right: 100px;
+}
+nav ul li
+{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a
+{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 15px;
+}
+a.active,a:hover
+{
+    background: #f15d07;
+    transition: .5s;
+}
+.page1{
+    color: white;
+    position: relative;
+    margin-top: 250px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.gambar1 img{
+    width: 650px;
+     
+}
+.gambar1{
+    position: relative;
+    top: -210px;
+    margin-right: 110px;
+    float: right;
+}
+/* profil end */
+
+/* jumbotron1 */
+#jumbotron1{
+background: url(../gambar/bagroun2.jpg) no-repeat;
+background-size: cover;
+height: calc(115vh - 100px);
+}   
+.profila img{
+    width: 550px;
+    margin-top: -180px;
+    margin-left: 290px;
+}
+.dawett img{
+    width: 210px;
+    margin-left: 140px;
+    margin-top: -40px;
+    position: relative;
+}
+.orang img{
+    position: relative;
+    width: 400px;
+    margin-top: -140px;
+    margin-left: 40px;
+}
+.tulisan1 h1{
+    position: relative;
+    z-index: 12;
+    margin-top:-400px ;
+    margin-left: 530px;
+    font-size: 80px;
+    width: 300px;
+    bottom: 50px;
+}
+.tulisan2{
+    position: relative;
+    width: 550px;
+    float: right;
+    margin-right: 260px;
+    bottom: 50px;
+    font-size: 24px;
+    
+}
+.button1
+{
+
+background:#f15d07;;
+color: white;
+font-size: 27px;
+margin-top: 220px;
+width: 160px;
+height: 50px;
+border-radius: 25px;
+text-align: center;
+padding-top:10px;
+float: right;
+left: 160px;
+position: relative;
+
+text-transform: uppercase;
+}
+.button1 a
+{
+text-decoration: none;
+color: white;
+}
+.button1 a:hover{
+background: rgb(226, 34, 9);
+}
+.button1:hover{
+background: rgb(226, 34, 9);
+}
+
+.button2
+{
+background:#f15d07;;
+color: white;
+font-size: 27px;
+margin-top: 220px;
+width: 160px;
+height: 50px;
+border-radius: 25px;
+text-align: center;
+padding-top:10px;
+float: right;
+left: 510px;
+position: relative;
+
+text-transform: uppercase;
+}
+.button2 a
+{
+text-decoration: none;
+color: white;
+}
+.button2 a:hover{
+background: rgb(226, 34, 9);
+}
+.button2:hover{
+background: rgb(226, 34, 9);
+}
+/* jumbotron1 end */
+
+/* jumboron2 */
+#jumbotron2{
+    background: url(../gambar/bagroun3\,2.jpg) no-repeat;
+    background-size: cover;
+    height: calc(115vh - 100px);
+}
+#visi img{
+    position: relative;
+    width: 300px;
+    top: 50px;
+    left: 130px;
+}
+.visii{
+    position: relative;
+    width: 100px;
+    font-size: 30px;
+    top: 30px;
+    left: 70px;
+}
+#do{
+    position: relative;
+    width: 700px;
+    font-size: 25px;
+    top:30px;
+    height: 10px;
+    left: 50px;
+}
+.ij{
+    position: relative;
+    background-color: rgb(248, 246, 244);
+    display: inline-block;
+    width: 180px;
+    height: 150px;
+    z-index: 45;
+    font-size: 30px;
+    color: rgb(15, 1, 1);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.8);
+    margin-top: 10px;
+    
+}
+.ij:hover{
+    background-color: rgb(255, 145, 0);
+}
+#iyi{
+position: relative;
+width: 400px;
+height: 400px;
+bottom: 50px;
+float: right;
+padding: 15px;
+right: 130px;
+}
+/* jumbotron2 end */
+
+/* jumboron3 */
+#jumbotron3{
+    background: url(../gambar/bagroun4\,1.jpg) no-repeat;
+    background-size: cover;
+    height: calc(115vh - 100px);
+}
+.subyek img{
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.gambar3 img{
+    width: 500px;
+    float: right;
+    position: relative;
+    top: 80px;
+    right: 60px;
+}
+.subyek1{
+position: relative;
+font-size: 60px;
+left: 300px;
+bottom: 50px;
+
+width: 300px;
+}
+.tii{
+    width: 700px;
+    
+    position: relative;
+    z-index: 9;
+    height: 400px;
+    bottom: 60px;
+    left: 70px;
+    padding: 5px;
+}
+.tii1{
+    width: 240px;
+    height: 180px;
+    background-color: rgb(252, 251, 249);
+    display: inline-block;
+    margin-top: 25px;
+    margin-left:35px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.8);
+    font-size: 25px;
+    padding: 10px;
+    padding-top: 40px;
+}
+/* jumbotron3 end */
+/* jumbotron4 */
+#jumbotron4{
+    background: url(../gambar/bagroun5\,5.jpg) no-repeat;
+    background-size: cover;
+    height: calc(115vh - 100px);
+}
+.platform img{
+    width: 500px;
+    margin-right: 100px;
+    margin-top: 30px;
+    float: right;
+}
+.platform1{
+    position: relative;
+    font-size: 60px;
+    left:210px;
+    width: 300px;
+    float: right;
+    top: 100px;
+}
+.lola img{
+    width: 500px;
+    float: right;
+    position: relative;
+    top: 130px;
+    right: 200px;
+}
+.y{
+    position: relative;
+    width: 200px;
+    height: 400px;
+    padding-top: 40px;
+    top: 90px;
+    left: 850px;
+}
+.yy{
+    position: relative;
+    width: 190px;
+    height: 150px;
+    background-color: white;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.8);
+    padding-top: 40px;
+    margin-top: 80px;
+}
+.x{
+    position: relative;
+    width: 700px;
+    height: 100px;
+    top: -100px;
+    left: 550px;
+    
+    display: inline-block;
+}
+.xx{
+    position: relative;
+    width: 190px;
+    height: 150px;
+    background-color:white;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.8);
+    float: left;
+    left: 50px;
+    bottom: 50px;
+}
+.xx.xx1{
+    left: 360px;
+}
+.xx img{
+    margin-left: 40px;
+    margin-top: 20px;
+    position: relative;
+}
+.yy img{
+    margin-left: 40px;
+    position: relative;
+    bottom: 15px;
+}
+/* jumbotron4 end */
+/* jumbotro5 */
+#jumbotron5{
+    background: url(../gambar/bagroun6\,6.jpg) no-repeat;
+    background-size: cover;
+    height: calc(115vh - 100px);
+}
+.Galeri img{
+    width: 500px;
+    margin-right: 170px;
+    margin-top: 5px;
+    float: right;
+}
+.Galeri1{
+    position: relative;
+    font-size: 60px;
+    left:410px;
+    width: 100px;
+    float: right;
+    top: 100px;
+    
+}
+.sant img{
+    width: 500px;
+    float: right;
+    position: relative;
+    top: 250px;
+    left: 590px;
+}
+.potopp{
+    position: absolute;
+    width: 600px;
+    height: 700px;
+}
+.potopp1 {
+    margin-top: 170px;
+    margin-left: 20px;
+}
+/* jumbotron5 end */
+/* jumbotro6 */
+#jumbotron6{
+    background: url(../gambar/bagroun7.jpg) no-repeat;
+    background-size: cover;
+    height: calc(115vh - 100px);
+}
+.fe img{
+    width: 500px;
+    float: left;
+    position: relative;
+    top: 190px;
+    left: 20px;
+}
+.ty{
+    position: relative;
+    font-size: 60px;
+    right:70px;
+    width: 690px;
+    float: right;
+    top: 130px; 
+    color: azure;
+}
+.to{
+    position: relative;
+    font-size: 35px;
+    right:125px;
+    width: 580px;
+    float: right;
+    top: 150px;
+    color: azure;
+}
+.button5
+{
+
+background:#f15d07;;
+color: azure;
+font-size: 27px;
+margin-top: 300px;
+width: 160px;
+height: 50px;
+border-radius: 25px;
+text-align: center;
+padding-top:10px;
+float: right;
+left: 240px;
+position: relative;
+
+text-transform: uppercase;
+}
+.button5 a
+{
+text-decoration: none;
+color: white;
+}
+.button5 a:hover{
+background: rgb(226, 34, 9);
+}
+.button5:hover{
+background: rgb(226, 34, 9);
+}
+.sosmed{
+    position: relative;
+    width: 500px;
+    top: 270px;
+    left: 500px;
+}
+.wa{
+    float: left;
+    position: relative;
+    margin:15px;
+}
+.wa.q{
+    margin-top: 20px;
+}
+.wa a img:hover{
+    list-style: none;
+    width: 55px;
+    background: rgb(206, 201, 201);
+}
+/* jumbotron6 end */
+/* Start Footer  */
+.footer{
+    text-align: center;
+    font-size: 18px;
+    background-color:lightgrey;
+}
+.footer a:hover 
+{
+    color: red;
+}
+.footer :hover 
+{
+    background-color: lightgray;
+}
